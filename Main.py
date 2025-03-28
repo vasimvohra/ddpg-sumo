@@ -1,5 +1,5 @@
 from sumo_bridge import SUMOBridge
-from Classes.Environment_Platoon import Environ
+from Environment_Platoon import Environ
 from ddpg_torch import Agent
 import numpy as np
 

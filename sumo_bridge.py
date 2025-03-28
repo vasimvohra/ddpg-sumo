@@ -3,7 +3,7 @@ import sys
 import traci
 import numpy as np
 from datetime import datetime
-from Classes.Environment_Platoon import Environ, Vehicle
+from Environment_Platoon import Environ, Vehicle
 
 
 class SUMOBridge:
