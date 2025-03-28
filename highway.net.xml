@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<net version="1.9" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,750.00,1299.00" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id="E0" from="J0" to="J1" priority="1" numLanes="3" speed="13.89">
+        <lane id="E0_0" index="0" speed="13.89" length="1299.00" shape="0.00,0.00 0.00,1299.00"/>
+        <lane id="E0_1" index="1" speed="13.89" length="1299.00" shape="3.20,0.00 3.20,1299.00"/>
+        <lane id="E0_2" index="2" speed="13.89" length="1299.00" shape="6.40,0.00 6.40,1299.00"/>
+    </edge>
+
+    <edge id="E1" from="J1" to="J2" priority="1" numLanes="3" speed="13.89">
+        <lane id="E1_0" index="0" speed="13.89" length="750.00" shape="0.00,1299.00 750.00,1299.00"/>
+        <lane id="E1_1" index="1" speed="13.89" length="750.00" shape="0.00,1302.20 750.00,1302.20"/>
+        <lane id="E1_2" index="2" speed="13.89" length="750.00" shape="0.00,1305.40 750.00,1305.40"/>
+    </edge>
+
+    <junction id="J0" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="7.60,0.00 -1.60,0.00"/>
+    <junction id="J1" type="priority" x="0.00" y="1299.00" incLanes="E0_0 E0_1 E0_2" intLanes="" shape="0.00,1306.40 0.00,1297.60 7.60,1299.00 -1.60,1299.00">
+        <request index="0" response="000" foes="000"/>
+        <request index="1" response="000" foes="000"/>
+        <request index="2" response="000" foes="000"/>
+    </junction>
+    <junction id="J2" type="dead_end" x="750.00" y="1299.00" incLanes="E1_0 E1_1 E1_2" intLanes="" shape="750.00,1306.40 750.00,1297.60"/>
+
+    <connection from="E0" to="E1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from="E0" to="E1" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from="E0" to="E1" fromLane="2" toLane="2" dir="s" state="M"/>
+
+</net>

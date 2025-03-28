@@ -1,0 +1,15 @@
+***Starting server on port 53751 ***
+Loading net-file from 'highway.net.xml' ... done (20ms).
+Loading done.
+Simulation started with time: 0.000.
+Simulation ended at time: 0.000.
+Reason: TraCI requested termination.
+Performance:
+ Duration: 0.533s
+ TraCI-Duration: 0.000s
+ Real time factor: 0
+ UPS: 0.000000
+Vehicles:
+ Inserted: 0 (Loaded: 1)
+ Running: 0
+ Waiting: 0

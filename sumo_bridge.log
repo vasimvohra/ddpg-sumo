@@ -1,0 +1,5 @@
+SUMO Bridge Log - Started at 2025-03-28 14:59:28.863171
+2025-03-28 14:59:28 [INFO] SUMO_HOME found and tools path added
+2025-03-28 14:59:41 [INFO] Starting SUMO with command: sumo-gui -c platoon.sumocfg --step-length 0.001 --start --quit-on-end --error-log sumo_errors.log --no-warnings true --gui-settings-file gui-settings.cfg
+2025-03-28 14:59:45 [INFO] SUMO started successfully
+2025-03-28 14:59:46 [INFO] SUMO connection closed
